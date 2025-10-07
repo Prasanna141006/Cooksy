@@ -116,9 +116,9 @@ struct MainPage: View {
                 }
             }
 
-            .searchable(text: $searchText, placement: .navigationBarDrawer)
-                .padding(.horizontal, 12)
-                .padding(.top, 8)
+//            .searchable(text: $searchText, placement: .navigationBarDrawer)
+//                .padding(.horizontal, 12)
+//                .padding(.top, 8)
             .task {
                 viewModel.getrecipe()
             }
